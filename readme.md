@@ -14,3 +14,7 @@ docker push lebondeveloppeur/nodejs-image-test:v2
 # use image from docker hub
 docker pull mongo:latest
 docker run -d -p 5001:27017 mongo:latest
+
+
+# build & run the existing project using docker compose 
+docker compose up -d --build
