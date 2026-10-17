@@ -1,0 +1,7 @@
+
+
+services:
+  nodejs:
+    build: .
+    ports:
+      - "3008:3000"
